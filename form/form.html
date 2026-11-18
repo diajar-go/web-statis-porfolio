@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            min-width: 100vh;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container-form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-card {
+            width: 30%;
+            height: 50%;
+            padding: 20px;
+            border: 1px solid grey;
+            border-radius: 20px;
+
+        }
+        .btn-submit{
+            width: 40%;
+            align-self: center;
+        }
+        h3{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-card">
+            <h3>Login</h3>
+            <form action="">
+                <div class="container-form">
+                    <label for="email">Email</label>
+                    <input type="email">
+                    <label for="password">Password</label>
+                    <input type="password" name="" id="">
+                    <div>
+                        <input type="checkbox" name="showPass" id=""> <label for="ShowPass">Show Password</label>
+                    </div>
+                    <button type="submit" class="btn-submit">SIGN IN</button>
+
+                    <h5>Forgot <a href="#">Username/Password</a></h5>
+                </div>
+                <!-- <label for="">Jurusan</label>
+                <select name="" id="">
+                    <option value="rpl">Rekayasa Perangkat Lunak</option>
+                    <option value="tsm">Teknik Sepeda Motor</option>
+                    <option value="atph">Agribisnis Tanaman Pangan dan Hortikultura</option>
+                </select> -->
+                <input type="range">
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
